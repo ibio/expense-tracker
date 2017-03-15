@@ -17,7 +17,13 @@ Test accounts:
 
 Admin
 * Can read all the saved expenses, including those which they do not own
-* Can not create, update, or delete expenses they do not own
+* Can not create, update, or delete expenses they do not own (you can click to edit your posts which have darker background)
+* Add a new one on the right pane
+
+User
+* Can edit every post (click the post to edit and it will update immediately)
+* Add a new one on the right pane
+
 
 Run locally
 ### frontend
@@ -51,7 +57,7 @@ composer install (you may need to install composer first)
 * iPHone 6
 
 
-__NOTICE__: for this small project, I just developed it for demonstrating my ability 1) to learn new things very fast, and 2) my coding philosophy -- get it done, and then progressive enhancement. I used total around 20 hours when I got the task, and also, I've never touched JWT before, so I got several hours to implement this. 
+__NOTICE__: for this small project, I just developed it for demonstrating my ability 1) to learn new things very fast, and 2) my coding philosophy -- get it done, and then progressive enhancement. I used total around 20 hours when I got the task, and also, I've never touched JWT before, so I got several hours to implement this. And also, as you can see, I really keep an eye on the details, especially for the frontend part. I am a kind of perfectionist.
 
 
 ## Some TODO list
@@ -60,4 +66,6 @@ __NOTICE__: for this small project, I just developed it for demonstrating my abi
 * aggregate spending per hour, day,month, and year (in addition to per week)
 * logout
 * frontend delete response (I didn't have time for it but the backend is done)
+
+Apparently I can implement those details and I am just running out of time for now. The system is designed to easy to maintain and extend. I am confident that I will be able finish all those task in a few hours in the future.
 

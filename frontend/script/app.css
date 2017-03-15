@@ -302,7 +302,12 @@
       border-top: 1px solid #EEE;
       width: 100%; }
   .expense .latest-posts .post-item {
+    cursor: pointer;
     position: relative; }
+    .expense .latest-posts .post-item:hover .entry-content {
+      border: 1px dotted #1f7edd; }
+    .expense .latest-posts .post-item:active .entry-content {
+      border: 1px dotted #1ABC9C; }
     .expense .latest-posts .post-item .entry-content {
       padding: 10px;
       margin: 5px 0px;

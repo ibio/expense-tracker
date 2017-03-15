@@ -26,7 +26,7 @@ data.NAV_REPORT			= 'report';
 // menu text mapping
 data.MENU = {};
 data.MENU[data.NAV_LOGIN] 		= 'Login - Gigster';
-data.MENU[data.NAV_EXPENSE]		= 'expense - Gigster';
+data.MENU[data.NAV_EXPENSE]		= 'Expense - Gigster';
 data.MENU[data.NAV_REPORT]		= 'Report - Gigster';
 
 

@@ -23,6 +23,13 @@
 
 	.latest-posts{
 		.post-item{
+			cursor: pointer;
+			&:hover{
+				.entry-content{border: 1px dotted $linkHoverColor;}
+			}
+			&:active{
+				.entry-content{border: 1px dotted $linkActiveColor;}
+			}
 			position: relative;
 			.entry-content{
 				h3{margin-top: 0px;}

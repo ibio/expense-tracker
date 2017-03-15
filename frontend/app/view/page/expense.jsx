@@ -72,12 +72,13 @@ export default class Expense extends React.Component{
   // http://daverupert.com/2015/12/intrinsic-placeholders-with-picture/
 	render(){
 		const expenseListView = this.state.expenseList.map(function(item){
+			const isOwner = (item.uid === this._userData.id);
 			return(
-				<div key={Util.uuid()} className="col-lg-3 post-item" onClick={this._handleEditClick.bind(this, item)}>
-					<div className={Classnames("entry-content", {'entry-owner':item.uid === this._userData.id})}>
-						<h3><a href="javascript:void(0);" title="Click to edit">${item.amount}</a></h3>
+				<div key={Util.uuid()} className="col-lg-3 post-item" onClick={this._handleEditClick.bind(this, item)} title={isOwner ? "Click to edit" : "You cannot edit other's post"}>
+					<div className={Classnames("entry-content", {'entry-owner':isOwner})}>
+						<h3><a href="javascript:void(0);">${item.amount}</a></h3>
 						<h5>{item.date}</h5>
-						<h5>{item.email}</h5>
+						<h5 className="ellipsis"><i className={Classnames('glyphicon', 'glyphicon-user', {'hidden':!isOwner})}></i> {item.email}</h5>
 						<p>{item.description}</p>
 					</div>	
 				</div>
