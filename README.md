@@ -7,12 +7,13 @@ Two roles:
 * Admin
 * User
 
-admin@gigster.com abc123456
-feynman@gigster.com abc123456
-
-user@gigster.com zz
-iris@gigster.com abc123456
-ibio@gigster.com abc123456
+Test accounts:
+* admin@gigster.com abc123456
+* feynman@gigster.com abc123456
+---------------
+* user@gigster.com zz
+* iris@gigster.com abc123456
+* ibio@gigster.com abc123456
 
 Admin
 * Can read all the saved expenses, including those which they do not own
