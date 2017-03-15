@@ -1,0 +1,67 @@
+// popup
+
+.popup {
+	.updatecheckout{
+		.option {
+			height: 34px;
+			.input {float: left; width: 190px; margin-right: 20px;}
+			.radio {margin-right: 10px; margin-top: 5px;}
+		}
+	}
+
+	.removeproduct{
+		h2 {margin-top: 0;}
+	}
+
+	.editproduct{
+		h3{margin-top: 0; color: #9195a2; font-size: 14px;}
+		.upload {margin-left: 15px; margin-top: 15px;}
+		.code {
+			position: relative;
+			input {width: calc(100% - 100px);}
+			.generate {position: absolute; bottom:0; right: 0;}
+		}
+
+		.barcodelist{
+			li {
+				height: 42px; line-height: 30px; padding: 5px 15px;
+				b {float: right; margin-right: 10px;}
+				button {float: right; padding:4px 8px;}
+			}
+		}
+	}
+
+	.confirmcart{
+		.detail {
+			p{
+				b{float: right;}
+			}
+			h4 {
+				b{float: right;}
+			}
+		}
+
+		.paymentlist{
+			li {
+				height: 52px; line-height: 30px;
+			
+				b {float: right; margin-right: 10px;}
+				button {float: right;}
+			}
+		}
+	}
+
+	.closeshift{
+		input{width: 50%;}
+		h4 {
+			span{float: right;}
+		}
+		.tip{margin-left: 10px; padding-top: 7px;}
+	}
+
+	.favoritecategory{
+		.btnadd {width: 80px;}
+	}
+
+
+}

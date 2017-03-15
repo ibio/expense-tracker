@@ -1,0 +1,42 @@
+// partial style
+@import 'global';
+
+
+.report{
+	margin-top: 60px;
+	// margin-bottom: 800px;
+	a{transition: color .3s ease-in;}
+	a:active{color: $linkActiveColor;}
+	a:hover{color: $linkHoverColor;}
+
+	.category-title{
+		position: relative;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		h3{display: inline-block; position: relative; background-color: white; margin: 0; padding: 0; padding-right: 15px;}
+		&:before{content: ''; position: absolute; top: 49%; border-top: 1px solid #EEE; width: 100%;}
+	}
+
+	.latest-posts{
+		
+	}
+	
+}
+
+@media (max-width: $screen-xs-max){
+.report{
+	margin-top: 60px;
+
+	.latest-posts{
+		.post-item{
+			margin-bottom: 40px;
+			height: unset;	
+			.entry-image{
+				a{height: unset;}
+			}
+		}
+	}
+
+}
+
+}
