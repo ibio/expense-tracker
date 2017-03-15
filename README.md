@@ -29,7 +29,7 @@ Run locally
 ### frontend
 ```
 git clone https://github.com/ibio/expense-tracker.git
-cd front-end-test/frontend
+cd expense-tracker/frontend
 npm install
 grunt (you may need to install grunt first)
 ```
@@ -38,7 +38,7 @@ Or use any local http server to visit it.
 ### backend
 ```
 git clone https://github.com/ibio/expense-tracker.git
-cd front-end-test/interface
+cd expense-tracker/interface
 composer install (you may need to install composer first)
 ```
 
