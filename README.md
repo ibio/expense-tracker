@@ -1,7 +1,7 @@
 # Expense Tracker
 An expense tracker with multiple user role login and JWT RESTful api implementation. 
 
-Online Demo: http://us.ypseek.com/labs/2017/gigster/
+Online Demo: http://dev.mousky.com/gigster/
 
 Two roles:
 * Admin
